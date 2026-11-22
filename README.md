@@ -1,6 +1,6 @@
 # Batumi Sans
 
-A free, open-source pan-European type family, built on FiraGO and Fira Sans. It has four widths, nine weights, true italics, a rounded companion and variable fonts. It covers most European languages, in Georgian, Latin, Cyrillic and Greek, and keeps the Arabic, Hebrew, Devanagari and Thai that FiraGO already had. We plan to add Armenian soon.
+A free, open-source pan-European type family, built on FiraGO and Fira Sans. It has four widths, nine weights, true italics, a rounded companion and variable fonts. It supports [632 languages](docs/LANGUAGES.md) in Georgian, Latin, Cyrillic and Greek, among them the national language of every European state except Armenian, which we plan to add soon. It also keeps the Arabic, Hebrew, Devanagari and Thai that FiraGO already had.
 
 ![Batumi Sans, ბათუმი სანსი: four widths, nine weights, italics, rounded, variable](docs/images/hero.png)
 

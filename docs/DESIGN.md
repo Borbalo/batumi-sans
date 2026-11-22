@@ -168,6 +168,10 @@ This is the Borbalo map before and after the change of typeface. Street names mo
 
 ![A street and a fountain on the Borbalo map, labelled in Noto Sans before and in Batumi Sans after](images/map-before-after.png)
 
+The map uses the whole family. Continents are set in the wide width, seas in italic, countries and streets in Mtavruli, and districts in the narrowest width.
+
+![The Borbalo map in Batumi Sans at three scales: the world, the Caucasus and a city street](images/map-scales.png)
+
 ## Symbols
 
 The arrow and key symbols (⇦ ⇧ ⇨ ⇩ ⇪ ⏎ ⌫ and the Mac modifier keys) were redrawn. Hollow arrows tend to close up in heavy and narrow styles. These are built from a centreline with a fixed stroke, so the inside stays open in Extra Condensed Heavy. They have sharp corners in the standard design and round ones in Rounded.

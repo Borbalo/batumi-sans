@@ -128,6 +128,16 @@
   #map-ba img { display: block; border-radius: 8px; }
   #map-ba .street { width: 100%; height: auto; }
   #map-ba .water { width: 100%; height: auto; margin-top: 16px; }
+  #map-scales { grid-template-columns: 660px 840px; grid-template-rows: 700px 330px; }
+  #map-scales .tile { justify-content: flex-start; gap: 24px; }
+  #map-scales img { display: block; }
+  #map-scales .globe { width: 564px; height: 564px; }
+  #map-scales .region { width: 744px; height: 564px; border-radius: 8px; }
+  #map-scales .city { grid-column: span 2; }
+  #map-scales .strips { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  #map-scales .strips img { width: 100%; height: 190px; object-fit: cover; border-radius: 8px; }
+  #map-scales .caprow { display: flex; justify-content: space-between; align-items: baseline; }
+  #map-scales .credit { font-size: 13px; font-weight: 500; opacity: 0.6; }
 
   /* In use */
   #in-use { grid-template-columns: repeat(3, 1fr); grid-template-rows: 380px 380px; height: 760px; }
@@ -379,6 +389,21 @@
   <div class="tile green">
     <div class="cap">After · Batumi Sans, streets in capitals, water in italic</div>
     <div><img class="street" src="assets/map-street-after.png" alt=""><img class="water" src="assets/map-water-after.png" alt=""></div>
+  </div>
+</section>
+
+<section class="board" id="map-scales">
+  <div class="tile cream">
+    <div class="cap">World · continents wide, oceans in italic</div>
+    <img class="globe" src="assets/map-globe.webp" alt="">
+  </div>
+  <div class="tile sky">
+    <div class="cap">Region · countries in capitals, mountains along the range</div>
+    <img class="region" src="assets/map-region.webp" alt="">
+  </div>
+  <div class="tile green city">
+    <div class="caprow"><div class="cap">City · streets in capitals, water in italic</div><div class="credit">Borbalo map · data © OpenStreetMap contributors, © MapTiler</div></div>
+    <div class="strips"><img src="assets/map-street-after.png" alt=""><img src="assets/map-water-after.png" alt=""></div>
   </div>
 </section>
 

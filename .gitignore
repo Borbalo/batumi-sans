@@ -39,3 +39,4 @@ google-fonts/*/*.ttf
 # A specimen page and renderer that need local reference fonts and system fonts.
 /specimen/
 /scripts/render_specimens.py
+/.hyperglot-cache
