@@ -30,7 +30,6 @@ shot mtavruli     mtavruli-height-cues.png         640
 shot amp-problem  georgian-ampersand-problem.png   580
 shot map-centred  map-centred.png                  560
 shot map-ba       map-before-after.png             600
-shot map-scales   map-scales.png                   1030
 shot in-use       in-use.png                       760
 
 # Pictures for the Google Fonts article folders, 2048 x 1024.
