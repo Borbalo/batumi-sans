@@ -113,7 +113,7 @@ TRADEMARK_STR = (
 MANUFACTURER_STR = "Borbalo (KJ Group)"
 DESIGNER_STR = "Koba Jgenti, Borbalo"
 DESCRIPTION_STR = (
-    "Batumi Sans is a type family for Georgian, Latin, Cyrillic and Greek, with four "
+    "Batumi Sans is a pan-European type family for Georgian, Latin, Cyrillic and Greek, with four "
     "widths, a rounded companion and a Georgian ampersand. Designed for Borbalo by Koba Jgenti."
 )
 VENDOR_URL = "https://borbalo.ge"
