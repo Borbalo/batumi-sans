@@ -1,6 +1,6 @@
 # Batumi Sans
 
-A free, open-source type family for Georgian and Latin, built on FiraGO and Fira Sans. It has four widths, nine weights, true italics, a rounded companion and variable fonts. It covers Georgian, Latin, Cyrillic and Greek, and keeps the Arabic, Hebrew, Devanagari and Thai that FiraGO already had.
+A free, open-source type family for Georgian, Latin, Cyrillic and Greek, built on FiraGO and Fira Sans. It has four widths, nine weights, true italics, a rounded companion and variable fonts. It also keeps the Arabic, Hebrew, Devanagari and Thai that FiraGO already had.
 
 ![Batumi Sans, ბათუმი სანსი: four widths, nine weights, italics, rounded, variable](docs/images/hero.png)
 
