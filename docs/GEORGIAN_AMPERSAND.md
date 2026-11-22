@@ -22,7 +22,7 @@ Georgian has what it needs to make its own:
 
 - **The word has always been written joined.** Georgian handwriting moved from Asomtavruli to Nuskhuri to Mkhedruli largely to write faster and with fewer pen lifts, and დ and ა are among the letters Mkhedruli scribes joined most, above all when they form the word და. Writing "and" as one shape is as old a habit in Georgian as it is in Latin.
 - **The word is two letters.** და joins as naturally as *et* did. A three-letter word like English *and* or a one-letter word like Russian *и* could not do this.
-- **Brands already want it.** Some companies have drawn a joined და for their Georgian logos, each in its own way, because there is no standard sign.
+- **Brands already need it.** When a name with & is written in Georgian, companies reach for a joined და, each in its own way, because there is no standard sign.
 
 ## What the sign has to do
 
@@ -93,15 +93,15 @@ This would be reason enough even if nobody had tried to fix it.
 
 ### The demand is real
 
-People have tried, and their signs are already on the street.
+The need already shows on the street. When a name with & is put into Georgian, the symbol has to be translated too.
 
-- **H&M.** Its first shop in Georgia opened in Tbilisi in 2017 with the name in Georgian letters: ჰ and მ, and between them a small და with the ა set on top of the დ. H&M's press office in Georgia said the lettering used a device of old Georgian calligraphy ([Fortuna, 6 November 2017](https://fortuna.ge/h-da-m-haundemi-tu-haedamani-diakh-am-brendma-pativi-sca-sakhelmwifo-enas/)).
+- **H&M.** Its first shop in Georgia opened in Tbilisi in 2017 with the name in Georgian letters. Between ჰ and მ, where the & stands, it put the traditional ligature of და, with the ა set on top of the დ. Georgian writing has used that ligature for hundreds of years, and H&M's press office in Georgia called it a device of old Georgian calligraphy ([Fortuna, 6 November 2017](https://fortuna.ge/h-da-m-haundemi-tu-haedamani-diakh-am-brendma-pativi-sca-sakhelmwifo-enas/)).
 - **GPC.** The pharmacy chain writes its slogan აფთიაქი და მეტი, "pharmacy and more", with one looped stroke in place of the word ([gpcoffers.ge](https://gpcoffers.ge/ka)).
 - **Type foundries.** [type.today](https://www.instagram.com/p/DCcMaujiEFD/) in 2024 and [TypeType](https://www.instagram.com/p/DZFgK-sih8n/) in 2026 both published the H&M sign and called it the Georgian ampersand.
 
 ### One sign, many drawings
 
-These are the same sign drawn three ways: stacked at H&M, looped at GPC, joined side by side in Batumi Sans. Every character has many drawings. What is missing is the character itself.
+These are the same sign in three drawings: the traditional stacked ligature at H&M, a looped stroke at GPC, and the form in Batumi Sans, joined side by side. Every character has many drawings. What is missing is the character itself.
 
 Today each of these exists only as a picture. None can be typed, searched or set in another font, so the sign stays inside logos. One Unicode character would give all of them a standard that any font can carry and anyone can type.
 
