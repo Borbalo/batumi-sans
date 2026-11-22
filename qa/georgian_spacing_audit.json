@@ -1,0 +1,1695 @@
+{
+  "total_failures": 0,
+  "targets": [
+    {
+      "label": "XCon HeavyItalic (Sharp)",
+      "before": {
+        "label": "XCon HeavyItalic (Sharp)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 11,
+          "lt30": 541,
+          "min_gap": -17.0,
+          "min_pair": "uni10ED+uni10EC",
+          "worst5": [
+            [
+              -17.0,
+              "uni10ED",
+              "uni10EC",
+              0
+            ],
+            [
+              -11.9,
+              "uni10EC",
+              "uni10D6",
+              -8
+            ],
+            [
+              -11.4,
+              "uni10EC",
+              "uni10EC",
+              0
+            ],
+            [
+              -6.8,
+              "uni10ED",
+              "uni10E8",
+              0
+            ],
+            [
+              -5.4,
+              "uni10D3",
+              "uni10EF",
+              -17
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 549,
+          "min_gap": 2.0,
+          "min_pair": "uni10ED.case+uni10E4.case",
+          "worst5": [
+            [
+              2.0,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              2.8,
+              "uni10ED.case",
+              "uni10E3.case",
+              0
+            ],
+            [
+              3.5,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              5.4,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              6.4,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 2592,
+        "mtv_dolche_adv": 2751
+      },
+      "after": {
+        "label": "XCon HeavyItalic (Sharp)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 35.3,
+          "min_pair": "uni10EB+uni10EF",
+          "worst5": [
+            [
+              35.3,
+              "uni10EB",
+              "uni10EF",
+              -26
+            ],
+            [
+              35.4,
+              "uni10DB",
+              "uni10EF",
+              -26
+            ],
+            [
+              37.0,
+              "uni10E5",
+              "uni10D9",
+              -26
+            ],
+            [
+              38.6,
+              "uni10E6",
+              "uni10D9",
+              -51
+            ],
+            [
+              38.8,
+              "uni10E8",
+              "uni10EF",
+              -26
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 49.4,
+          "min_pair": "uni10E6.case+uni10EF.case",
+          "worst5": [
+            [
+              49.4,
+              "uni10E6.case",
+              "uni10EF.case",
+              -8
+            ],
+            [
+              52.1,
+              "uni10EF.case",
+              "uni10F0.case",
+              0
+            ],
+            [
+              54.7,
+              "uni10D6.case",
+              "uni10DB.case",
+              0
+            ],
+            [
+              54.8,
+              "uni10D6.case",
+              "uni10EC.case",
+              0
+            ],
+            [
+              54.8,
+              "uni10E2.case",
+              "uni10F0.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 2811,
+        "mtv_dolche_adv": 2999
+      }
+    },
+    {
+      "label": "XCon HeavyItalic (Rounded)",
+      "before": {
+        "label": "XCon HeavyItalic (Rounded)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 5,
+          "lt30": 458,
+          "min_gap": -11.9,
+          "min_pair": "uni10EC+uni10D6",
+          "worst5": [
+            [
+              -11.9,
+              "uni10EC",
+              "uni10D6",
+              -8
+            ],
+            [
+              -11.4,
+              "uni10EC",
+              "uni10EC",
+              0
+            ],
+            [
+              -4.5,
+              "uni10EC",
+              "uni10E8",
+              0
+            ],
+            [
+              -0.9,
+              "uni10E5",
+              "uni10D9",
+              -26
+            ],
+            [
+              -0.4,
+              "uni10E8",
+              "uni10EF",
+              -26
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 484,
+          "min_gap": 3.4,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              3.4,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              5.9,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              6.5,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ],
+            [
+              8.0,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              10.2,
+              "uni10ED.case",
+              "uni10E7.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 2592,
+        "mtv_dolche_adv": 2751
+      },
+      "after": {
+        "label": "XCon HeavyItalic (Rounded)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 36.0,
+          "min_pair": "uni10DB+uni10EF",
+          "worst5": [
+            [
+              36.0,
+              "uni10DB",
+              "uni10EF",
+              -26
+            ],
+            [
+              36.0,
+              "uni10EB",
+              "uni10EF",
+              -26
+            ],
+            [
+              37.1,
+              "uni10E5",
+              "uni10D9",
+              -26
+            ],
+            [
+              39.6,
+              "uni10E8",
+              "uni10EF",
+              -26
+            ],
+            [
+              42.5,
+              "uni10F0",
+              "uni10D2",
+              -26
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 54.7,
+          "min_pair": "uni10D6.case+uni10DB.case",
+          "worst5": [
+            [
+              54.7,
+              "uni10D6.case",
+              "uni10DB.case",
+              0
+            ],
+            [
+              54.8,
+              "uni10D6.case",
+              "uni10EC.case",
+              0
+            ],
+            [
+              55.4,
+              "uni10D6.case",
+              "uni10D2.case",
+              0
+            ],
+            [
+              55.9,
+              "uni10D6.case",
+              "uni10D0.case",
+              0
+            ],
+            [
+              55.9,
+              "uni10D6.case",
+              "uni10D1.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 2811,
+        "mtv_dolche_adv": 2999
+      }
+    },
+    {
+      "label": "Cond HeavyItalic (Sharp)",
+      "before": {
+        "label": "Cond HeavyItalic (Sharp)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 7,
+          "lt30": 221,
+          "min_gap": -24.0,
+          "min_pair": "uni10ED+uni10EC",
+          "worst5": [
+            [
+              -24.0,
+              "uni10ED",
+              "uni10EC",
+              0
+            ],
+            [
+              -15.0,
+              "uni10EC",
+              "uni10EC",
+              0
+            ],
+            [
+              -14.7,
+              "uni10EC",
+              "uni10D6",
+              -9
+            ],
+            [
+              -11.4,
+              "uni10ED",
+              "uni10E8",
+              0
+            ],
+            [
+              -5.8,
+              "uni10EC",
+              "uni10E8",
+              0
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 175,
+          "min_gap": 1.9,
+          "min_pair": "uni10ED.case+uni10E4.case",
+          "worst5": [
+            [
+              1.9,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              2.6,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              2.7,
+              "uni10ED.case",
+              "uni10E3.case",
+              0
+            ],
+            [
+              6.4,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              8.4,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 2782,
+        "mtv_dolche_adv": 2964
+      },
+      "after": {
+        "label": "Cond HeavyItalic (Sharp)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 35.9,
+          "min_pair": "uni10DB+uni10EF",
+          "worst5": [
+            [
+              35.9,
+              "uni10DB",
+              "uni10EF",
+              -28
+            ],
+            [
+              36.9,
+              "uni10EB",
+              "uni10EF",
+              -28
+            ],
+            [
+              38.3,
+              "uni10E6",
+              "uni10D9",
+              -55
+            ],
+            [
+              38.4,
+              "uni10E5",
+              "uni10D9",
+              -28
+            ],
+            [
+              38.4,
+              "uni10F0",
+              "uni10D9",
+              -46
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 48.2,
+          "min_pair": "uni10E6.case+uni10EF.case",
+          "worst5": [
+            [
+              48.2,
+              "uni10E6.case",
+              "uni10EF.case",
+              -9
+            ],
+            [
+              48.6,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              48.8,
+              "uni10EF.case",
+              "uni10F0.case",
+              0
+            ],
+            [
+              51.7,
+              "uni10D6.case",
+              "uni10F0.case",
+              0
+            ],
+            [
+              52.1,
+              "uni10E2.case",
+              "uni10F0.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 2971,
+        "mtv_dolche_adv": 3172
+      }
+    },
+    {
+      "label": "Cond HeavyItalic (Rounded)",
+      "before": {
+        "label": "Cond HeavyItalic (Rounded)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 4,
+          "lt30": 169,
+          "min_gap": -14.5,
+          "min_pair": "uni10EC+uni10EC",
+          "worst5": [
+            [
+              -14.5,
+              "uni10EC",
+              "uni10EC",
+              0
+            ],
+            [
+              -14.0,
+              "uni10EC",
+              "uni10D6",
+              -9
+            ],
+            [
+              -4.2,
+              "uni10EC",
+              "uni10E8",
+              0
+            ],
+            [
+              -3.6,
+              "uni10ED",
+              "uni10EC",
+              0
+            ],
+            [
+              3.6,
+              "uni10D3",
+              "uni10EF",
+              -18
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 140,
+          "min_gap": 2.7,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              2.7,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              7.4,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              9.0,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              9.1,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ],
+            [
+              13.2,
+              "uni10ED.case",
+              "uni10E7.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 2782,
+        "mtv_dolche_adv": 2964
+      },
+      "after": {
+        "label": "Cond HeavyItalic (Rounded)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 36.0,
+          "min_pair": "uni10DB+uni10EF",
+          "worst5": [
+            [
+              36.0,
+              "uni10DB",
+              "uni10EF",
+              -28
+            ],
+            [
+              36.9,
+              "uni10EB",
+              "uni10EF",
+              -28
+            ],
+            [
+              38.2,
+              "uni10E5",
+              "uni10D9",
+              -28
+            ],
+            [
+              40.0,
+              "uni10E8",
+              "uni10EF",
+              -28
+            ],
+            [
+              42.2,
+              "uni10F0",
+              "uni10D2",
+              -28
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 48.7,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              48.7,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              53.2,
+              "uni10D6.case",
+              "uni10DE.case",
+              0
+            ],
+            [
+              53.3,
+              "uni10D6.case",
+              "uni10DB.case",
+              0
+            ],
+            [
+              53.4,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              53.7,
+              "uni10D6.case",
+              "uni10D9.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 2971,
+        "mtv_dolche_adv": 3172
+      }
+    },
+    {
+      "label": "Norm HeavyItalic (Sharp)",
+      "before": {
+        "label": "Norm HeavyItalic (Sharp)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 7,
+          "lt30": 157,
+          "min_gap": -28.8,
+          "min_pair": "uni10ED+uni10EC",
+          "worst5": [
+            [
+              -28.8,
+              "uni10ED",
+              "uni10EC",
+              0
+            ],
+            [
+              -17.0,
+              "uni10EC",
+              "uni10EC",
+              0
+            ],
+            [
+              -16.4,
+              "uni10EC",
+              "uni10D6",
+              -10
+            ],
+            [
+              -14.7,
+              "uni10ED",
+              "uni10E8",
+              0
+            ],
+            [
+              -7.0,
+              "uni10D3",
+              "uni10D9",
+              -60
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 78,
+          "min_gap": 1.6,
+          "min_pair": "uni10ED.case+uni10E4.case",
+          "worst5": [
+            [
+              1.6,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              3.1,
+              "uni10ED.case",
+              "uni10E3.case",
+              0
+            ],
+            [
+              3.2,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              8.4,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              9.8,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 3022,
+        "mtv_dolche_adv": 3235
+      },
+      "after": {
+        "label": "Norm HeavyItalic (Sharp)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 31.0,
+          "min_pair": "uni10D3+uni10D9",
+          "worst5": [
+            [
+              31.0,
+              "uni10D3",
+              "uni10D9",
+              -60
+            ],
+            [
+              32.2,
+              "uni10ED",
+              "uni10EC",
+              0
+            ],
+            [
+              33.5,
+              "uni10DB",
+              "uni10EF",
+              -30
+            ],
+            [
+              33.5,
+              "uni10EB",
+              "uni10EF",
+              -30
+            ],
+            [
+              33.8,
+              "uni10E6",
+              "uni10D9",
+              -60
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 43.2,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              43.2,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              45.9,
+              "uni10EF.case",
+              "uni10F0.case",
+              0
+            ],
+            [
+              46.5,
+              "uni10E6.case",
+              "uni10EF.case",
+              -10
+            ],
+            [
+              48.4,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              48.6,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 3181,
+        "mtv_dolche_adv": 3413
+      }
+    },
+    {
+      "label": "Norm HeavyItalic (Rounded)",
+      "before": {
+        "label": "Norm HeavyItalic (Rounded)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 4,
+          "lt30": 116,
+          "min_gap": -17.3,
+          "min_pair": "uni10EC+uni10EC",
+          "worst5": [
+            [
+              -17.3,
+              "uni10EC",
+              "uni10EC",
+              0
+            ],
+            [
+              -16.5,
+              "uni10EC",
+              "uni10D6",
+              -10
+            ],
+            [
+              -6.1,
+              "uni10EC",
+              "uni10E8",
+              0
+            ],
+            [
+              -5.2,
+              "uni10ED",
+              "uni10EC",
+              0
+            ],
+            [
+              4.7,
+              "uni10D3",
+              "uni10EF",
+              -20
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 53,
+          "min_gap": 3.1,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              3.1,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              7.7,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              8.7,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              10.0,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ],
+            [
+              15.4,
+              "uni10ED.case",
+              "uni10E7.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 3022,
+        "mtv_dolche_adv": 3235
+      },
+      "after": {
+        "label": "Norm HeavyItalic (Rounded)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 33.9,
+          "min_pair": "uni10DB+uni10EF",
+          "worst5": [
+            [
+              33.9,
+              "uni10DB",
+              "uni10EF",
+              -30
+            ],
+            [
+              34.0,
+              "uni10EB",
+              "uni10EF",
+              -30
+            ],
+            [
+              34.5,
+              "uni10EC",
+              "uni10D6",
+              -10
+            ],
+            [
+              35.1,
+              "uni10E5",
+              "uni10D9",
+              -30
+            ],
+            [
+              37.7,
+              "uni10EC",
+              "uni10EC",
+              0
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 43.1,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              43.1,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              48.7,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              49.9,
+              "uni10D6.case",
+              "uni10DE.case",
+              0
+            ],
+            [
+              50.0,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ],
+            [
+              50.2,
+              "uni10D6.case",
+              "uni10D9.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 3181,
+        "mtv_dolche_adv": 3413
+      }
+    },
+    {
+      "label": "Exp  HeavyItalic (Sharp)",
+      "before": {
+        "label": "Exp  HeavyItalic (Sharp)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 6,
+          "lt30": 102,
+          "min_gap": -32.5,
+          "min_pair": "uni10ED+uni10EC",
+          "worst5": [
+            [
+              -32.5,
+              "uni10ED",
+              "uni10EC",
+              0
+            ],
+            [
+              -18.3,
+              "uni10EC",
+              "uni10EC",
+              0
+            ],
+            [
+              -18.1,
+              "uni10EC",
+              "uni10D6",
+              -11
+            ],
+            [
+              -17.8,
+              "uni10ED",
+              "uni10E8",
+              0
+            ],
+            [
+              -8.0,
+              "uni10D3",
+              "uni10D9",
+              -65
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 44,
+          "min_gap": 1.0,
+          "min_pair": "uni10ED.case+uni10E4.case",
+          "worst5": [
+            [
+              1.0,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              3.0,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              3.2,
+              "uni10ED.case",
+              "uni10E3.case",
+              0
+            ],
+            [
+              9.2,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              10.4,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 3450,
+        "mtv_dolche_adv": 3703
+      },
+      "after": {
+        "label": "Exp  HeavyItalic (Sharp)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 31.0,
+          "min_pair": "uni10D3+uni10D9",
+          "worst5": [
+            [
+              31.0,
+              "uni10D3",
+              "uni10D9",
+              -65
+            ],
+            [
+              31.9,
+              "uni10EC",
+              "uni10D6",
+              -11
+            ],
+            [
+              33.4,
+              "uni10D3",
+              "uni10EF",
+              -22
+            ],
+            [
+              33.5,
+              "uni10ED",
+              "uni10EC",
+              0
+            ],
+            [
+              34.5,
+              "uni10DB",
+              "uni10EF",
+              -32
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 39.0,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              39.0,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              44.0,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              44.5,
+              "uni10EF.case",
+              "uni10F0.case",
+              0
+            ],
+            [
+              45.2,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              46.1,
+              "uni10E6.case",
+              "uni10EF.case",
+              -11
+            ]
+          ]
+        },
+        "dolche_adv": 3589,
+        "mtv_dolche_adv": 3861
+      }
+    },
+    {
+      "label": "Exp  HeavyItalic (Rounded)",
+      "before": {
+        "label": "Exp  HeavyItalic (Rounded)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 4,
+          "lt30": 70,
+          "min_gap": -18.1,
+          "min_pair": "uni10EC+uni10EC",
+          "worst5": [
+            [
+              -18.1,
+              "uni10EC",
+              "uni10EC",
+              0
+            ],
+            [
+              -17.5,
+              "uni10EC",
+              "uni10D6",
+              -11
+            ],
+            [
+              -6.5,
+              "uni10EC",
+              "uni10E8",
+              0
+            ],
+            [
+              -4.5,
+              "uni10ED",
+              "uni10EC",
+              0
+            ],
+            [
+              9.0,
+              "uni10D3",
+              "uni10EF",
+              -22
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 26,
+          "min_gap": 2.9,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              2.9,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              8.4,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              9.7,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              11.0,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ],
+            [
+              17.1,
+              "uni10ED.case",
+              "uni10E7.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 3450,
+        "mtv_dolche_adv": 3703
+      },
+      "after": {
+        "label": "Exp  HeavyItalic (Rounded)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 32.5,
+          "min_pair": "uni10EC+uni10D6",
+          "worst5": [
+            [
+              32.5,
+              "uni10EC",
+              "uni10D6",
+              -11
+            ],
+            [
+              34.9,
+              "uni10DB",
+              "uni10EF",
+              -32
+            ],
+            [
+              34.9,
+              "uni10EB",
+              "uni10EF",
+              -32
+            ],
+            [
+              36.9,
+              "uni10EC",
+              "uni10EC",
+              0
+            ],
+            [
+              38.5,
+              "uni10F0",
+              "uni10D2",
+              -32
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 38.9,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              38.9,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              45.7,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              47.0,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ],
+            [
+              48.2,
+              "uni10D6.case",
+              "uni10DE.case",
+              0
+            ],
+            [
+              49.3,
+              "uni10D6.case",
+              "uni10D9.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 3589,
+        "mtv_dolche_adv": 3861
+      }
+    },
+    {
+      "label": "XCon Heavy (Upright Sharp)",
+      "before": {
+        "label": "XCon Heavy (Upright Sharp)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 470,
+          "min_gap": 0.3,
+          "min_pair": "uni10E5+uni10D9",
+          "worst5": [
+            [
+              0.3,
+              "uni10E5",
+              "uni10D9",
+              -26
+            ],
+            [
+              2.0,
+              "uni10E8",
+              "uni10EF",
+              -26
+            ],
+            [
+              3.0,
+              "uni10DB",
+              "uni10EF",
+              -26
+            ],
+            [
+              3.0,
+              "uni10EB",
+              "uni10EF",
+              -26
+            ],
+            [
+              3.8,
+              "uni10D1",
+              "uni10EF",
+              -17
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 714,
+          "min_gap": 3.0,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              3.0,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              3.5,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              3.6,
+              "uni10ED.case",
+              "uni10E3.case",
+              0
+            ],
+            [
+              5.0,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              6.0,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 3265,
+        "mtv_dolche_adv": 3402
+      },
+      "after": {
+        "label": "XCon Heavy (Upright Sharp)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 38.3,
+          "min_pair": "uni10E5+uni10D9",
+          "worst5": [
+            [
+              38.3,
+              "uni10E5",
+              "uni10D9",
+              -26
+            ],
+            [
+              39.0,
+              "uni10DB",
+              "uni10EF",
+              -26
+            ],
+            [
+              39.0,
+              "uni10EB",
+              "uni10EF",
+              -26
+            ],
+            [
+              42.0,
+              "uni10E6",
+              "uni10EF",
+              -17
+            ],
+            [
+              42.0,
+              "uni10E8",
+              "uni10EF",
+              -26
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 49.3,
+          "min_pair": "uni10E6.case+uni10EF.case",
+          "worst5": [
+            [
+              49.3,
+              "uni10E6.case",
+              "uni10EF.case",
+              -8
+            ],
+            [
+              52.0,
+              "uni10D3.case",
+              "uni10EF.case",
+              -8
+            ],
+            [
+              52.0,
+              "uni10EF.case",
+              "uni10F0.case",
+              0
+            ],
+            [
+              54.3,
+              "uni10D5.case",
+              "uni10F0.case",
+              0
+            ],
+            [
+              54.4,
+              "uni10D2.case",
+              "uni10F0.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 3468,
+        "mtv_dolche_adv": 3644
+      }
+    },
+    {
+      "label": "Rnd-It-VF (820, 79, −12°)",
+      "before": {
+        "label": "Rnd-It-VF (820, 79, -12°)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 2,
+          "lt30": 86,
+          "min_gap": -7.6,
+          "min_pair": "uni10EC+uni10D6",
+          "worst5": [
+            [
+              -7.6,
+              "uni10EC",
+              "uni10D6",
+              -8
+            ],
+            [
+              -6.0,
+              "uni10EC",
+              "uni10EC",
+              0
+            ],
+            [
+              1.9,
+              "uni10EC",
+              "uni10E8",
+              0
+            ],
+            [
+              3.5,
+              "uni10ED",
+              "uni10EC",
+              0
+            ],
+            [
+              11.1,
+              "uni10ED",
+              "uni10E3",
+              0
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 55,
+          "min_gap": 5.9,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              5.9,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              12.0,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              12.6,
+              "uni10ED.case",
+              "uni10E4.case",
+              0
+            ],
+            [
+              13.7,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ],
+            [
+              17.0,
+              "uni10ED.case",
+              "uni10E7.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 2643,
+        "mtv_dolche_adv": 2802
+      },
+      "after": {
+        "label": "Rnd-It-VF (820, 79, -12°)",
+        "mkh": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 46.5,
+          "min_pair": "uni10EC+uni10D6",
+          "worst5": [
+            [
+              46.5,
+              "uni10EC",
+              "uni10D6",
+              -8
+            ],
+            [
+              46.7,
+              "uni10E5",
+              "uni10D9",
+              -27
+            ],
+            [
+              47.0,
+              "uni10DB",
+              "uni10EF",
+              -27
+            ],
+            [
+              47.8,
+              "uni10EB",
+              "uni10EF",
+              -27
+            ],
+            [
+              50.7,
+              "uni10E8",
+              "uni10EF",
+              -27
+            ]
+          ]
+        },
+        "mtv": {
+          "pairs": 1089,
+          "neg": 0,
+          "lt30": 0,
+          "min_gap": 52.9,
+          "min_pair": "uni10ED.case+uni10D6.case",
+          "worst5": [
+            [
+              52.9,
+              "uni10ED.case",
+              "uni10D6.case",
+              0
+            ],
+            [
+              58.8,
+              "uni10D6.case",
+              "uni10DE.case",
+              0
+            ],
+            [
+              59.1,
+              "uni10ED.case",
+              "uni10EF.case",
+              0
+            ],
+            [
+              59.7,
+              "uni10D6.case",
+              "uni10D9.case",
+              0
+            ],
+            [
+              60.1,
+              "uni10ED.case",
+              "uni10EC.case",
+              0
+            ]
+          ]
+        },
+        "dolche_adv": 2837,
+        "mtv_dolche_adv": 3016
+      }
+    }
+  ]
+}

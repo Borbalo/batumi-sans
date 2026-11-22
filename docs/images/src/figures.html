@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Batumi Sans figure sources</title>
+<!--
+  Sources for the pictures in docs/images. Colours are taken from the cover of
+  the 2021 Georgian ampersand proposal. Render with render.sh in this folder.
+-->
+<style>
+  @font-face { font-family: "Batumi Sans"; src: url("../../../dist/variable/BatumiSans-VF.ttf"); font-weight: 100 900; font-stretch: 75% 115%; }
+  @font-face { font-family: "Batumi Sans"; font-style: italic; src: url("../../../dist/variable/BatumiSans-Italic-VF.ttf"); font-weight: 100 900; font-stretch: 75% 115%; }
+  @font-face { font-family: "Batumi Sans Rounded"; src: url("../../../dist/variable/BatumiSansRounded-VF.ttf"); font-weight: 100 900; font-stretch: 75% 115%; }
+  @font-face { font-family: "Batumi Sans Rounded"; font-style: italic; src: url("../../../dist/variable/BatumiSansRounded-Italic-VF.ttf"); font-weight: 100 900; font-stretch: 75% 115%; }
+
+  :root {
+    --cream: #F6F0E4; --green: #A4D4BB; --blue: #4283C0;
+    --sky: #A8D3E6; --pink: #FC9D9E; --ink: #000000;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--cream); }
+  body { font-family: "Batumi Sans", sans-serif; color: var(--ink); -webkit-font-smoothing: antialiased; }
+
+  .board { display: none; width: 1500px; overflow: hidden; }
+  .board:target { display: grid; }
+
+  .tile { padding: 44px 48px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }
+  .cream { background: var(--cream); } .green { background: var(--green); }
+  .blue  { background: var(--blue); color: var(--cream); }
+  .sky   { background: var(--sky); }  .pink  { background: var(--pink); }
+  .ink   { background: var(--ink); color: var(--cream); }
+
+  .label { font-size: 15px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.62; }
+  .ka { white-space: nowrap; line-height: 1.1; }
+  .en { white-space: nowrap; font-size: 25px; font-weight: 500; opacity: 0.72; margin-top: 10px; }
+  .rounded { font-family: "Batumi Sans Rounded", sans-serif; }
+
+  /* Georgian next to English */
+  #pair { grid-template-columns: 1fr 1fr; grid-template-rows: 300px 300px; height: 600px; }
+  #pair .tile { justify-content: center; }
+  #pair .ka, #pair .line { font-size: 74px; font-weight: 700; white-space: nowrap; line-height: 1.1; }
+  #pair .label { margin-bottom: 18px; }
+
+  /* Six uses */
+  #examples { grid-template-columns: repeat(3, 1fr); grid-template-rows: 350px 350px; height: 700px; }
+  #examples .ka { font-size: 56px; }
+
+  /* The two forms, large */
+  #glyphs { grid-template-columns: 1fr 1fr; height: 640px; }
+  #glyphs .tile { align-items: center; text-align: center; }
+  #glyphs .glyph { font-size: 400px; font-weight: 700; line-height: 0.95; align-self: center; }
+  #glyphs .sample { font-size: 44px; font-weight: 600; white-space: nowrap; }
+
+  /* What does not change */
+  #unchanged { grid-template-columns: 1fr 1fr; height: 380px; }
+  #unchanged .line { font-size: 76px; font-weight: 700; white-space: nowrap; }
+
+  /* Fresco abbreviations: one mark over two, three or four letters */
+  #karagma { grid-template-columns: repeat(6, 1fr); grid-template-rows: 420px 320px; height: 740px; }
+  #karagma .wide { grid-column: span 3; }
+  #karagma .third { grid-column: span 2; }
+  #karagma .phrase { font-weight: 500; line-height: 1.4; }
+  #karagma .span { font-size: 128px; font-weight: 600; line-height: 1.4; white-space: nowrap; }
+
+  /* ---------- Google Fonts article pictures, 1024 x 512 ---------- */
+  .board.gf { width: 1024px; height: 512px; }
+  .gf .tile { padding: 22px 28px; }
+  .gf .label { font-size: 11px; }
+  .gf.round { font-family: "Batumi Sans Rounded", sans-serif; }
+  .gf-hero { grid-template-columns: repeat(4, 1fr); grid-template-rows: 232px 140px 140px; }
+  .gf-hero .name-tile { grid-column: span 2; }
+  .gf-hero .gname { font-weight: 800; line-height: 1.02; letter-spacing: -0.01em; }
+  .gf-hero .gname-ka { font-weight: 800; line-height: 1.16; }
+  .gf-hero .caps { font-weight: 700; line-height: 1.3; }
+  .gf-hero .w { font-size: 36px; line-height: 1.2; white-space: nowrap; }
+  .gf-hero .half { grid-column: span 2; }
+  .gf-hero .line { font-size: 44px; font-weight: 700; line-height: 1.15; white-space: nowrap; }
+  .gf-weights { grid-template-columns: 1fr; grid-template-rows: 44px repeat(9, 52px); background: var(--cream); }
+  .gf-weights .head { display: flex; align-items: center; padding: 0 28px; background: var(--ink); color: var(--cream); }
+  .gf-weights .row { display: grid; grid-template-columns: 132px 1fr; align-items: center; padding: 0 28px; }
+  .gf-weights .row:nth-child(even) { background: #EDE6D8; }
+  .gf-weights .wname { font-size: 11px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.62; }
+  .gf-weights .s { font-size: 31px; line-height: 1; white-space: nowrap; }
+
+  /* Lines marked .fit are scaled to span the tile's inner width, so both side margins are equal. */
+  .fit { display: inline-block; align-self: flex-start; white-space: nowrap; line-height: 1.1; }
+  .center { align-items: center; text-align: center; }
+
+  /* ---------- launch boards ---------- */
+  .cap { font-size: 15px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; opacity: 0.62; }
+  .note { font-size: 22px; font-weight: 500; opacity: 0.78; line-height: 1.35; }
+  .ref { font-family: "FiraGO", sans-serif; }
+
+  /* Hero */
+  #hero { grid-template-columns: 2fr 1fr; height: 640px; }
+  #hero .name { font-weight: 800; line-height: 1.02; }
+  #hero .name-ka { font-weight: 800; line-height: 1.12; }
+  #hero .stats { font-size: 24px; font-weight: 600; }
+  #hero .stack { display: grid; grid-template-rows: repeat(3, 1fr); }
+  #hero .stack .tile { padding: 26px 40px; }
+  #hero .w { font-size: 86px; line-height: 1; white-space: nowrap; }
+
+  /* Widths */
+  #widths { grid-template-rows: repeat(4, 150px); height: 600px; }
+  #widths .tile { flex-direction: row; align-items: center; justify-content: flex-start; gap: 40px; padding: 0 48px; }
+  #widths .meta { width: 250px; flex: none; }
+  #widths .meta b { display: block; font-size: 24px; font-weight: 700; }
+  #widths .sample { font-size: 70px; white-space: nowrap; line-height: 1; }
+
+  /* Rounded */
+  #rounded { grid-template-columns: 1fr 1fr; height: 300px; }
+
+  /* Mtavruli */
+  #mtavruli { grid-template-columns: 1fr 1fr; height: 640px; }
+  #mtavruli svg { width: 100%; height: auto; display: block; }
+
+  /* Ampersand: the problem */
+  #amp-problem { grid-template-columns: 1fr 1fr; grid-template-rows: 380px 200px; height: 580px; }
+  #amp-problem .quote { grid-column: 1 / -1; justify-content: center; }
+  #amp-problem .q { font-size: 46px; font-weight: 700; font-style: italic; line-height: 1.15; }
+  #amp-problem .read b { font-weight: 700; }
+
+  /* Maps */
+  #map-centred { grid-template-columns: 1fr 1fr; height: 560px; }
+  #map-centred svg, #map-centred img { width: 100%; height: auto; display: block; }
+  #map-centred .real { border-radius: 6px; }
+  #map-ba { grid-template-columns: 1fr 1fr; height: 600px; }
+  #map-ba img { display: block; border-radius: 8px; }
+  #map-ba .street { width: 100%; height: auto; }
+  #map-ba .water { width: 100%; height: auto; margin-top: 16px; }
+
+  /* In use */
+  #in-use { grid-template-columns: repeat(3, 1fr); grid-template-rows: 380px 380px; height: 760px; }
+  #in-use .big { line-height: 1; white-space: nowrap; }
+  #in-use .rows { font-size: 26px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  #in-use .rows div { display: flex; justify-content: space-between; gap: 18px; padding: 9px 0; border-top: 1.5px solid currentColor; }
+  #in-use .rows div:first-child { border-top: 0; }
+  #in-use .dim { opacity: 0.62; }
+  #in-use .board-rows div { display: grid; grid-template-columns: 84px minmax(0, 1fr) 64px 118px; gap: 0; white-space: nowrap; }
+  #in-use .board-rows div span:last-child { text-align: right; }
+</style>
+</head>
+<body>
+
+<section class="board" id="pair">
+  <div class="tile cream" lang="ka"><div class="label" lang="en">Georgian</div><div class="ka fit">ნინო &amp; გიორგი</div></div>
+  <div class="tile green"><div class="label">English</div><div class="line fit">Nino &amp; Giorgi</div></div>
+  <div class="tile blue" lang="ka"><div class="label" lang="en">Georgian capitals</div><div class="ka fit">ᲛᲔᲒᲝᲑᲠᲔᲑᲘ &amp; ᲙᲝ.</div></div>
+  <div class="tile pink"><div class="label">English capitals</div><div class="line fit">FRIENDS &amp; CO.</div></div>
+</section>
+
+<section class="board" id="examples">
+  <div class="tile cream">
+    <div class="label">Wedding invitation</div>
+    <div><div class="ka fit" lang="ka" style="font-style: italic; font-weight: 500;">ნინო &amp; გიორგი</div><div class="en">Nino &amp; Giorgi</div></div>
+  </div>
+  <div class="tile green">
+    <div class="label">Bookshop café</div>
+    <div><div class="ka rounded fit" lang="ka" style="font-weight: 700;">ყავა &amp; წიგნები</div><div class="en">Coffee &amp; Books</div></div>
+  </div>
+  <div class="tile pink">
+    <div class="label">Restaurant</div>
+    <div><div class="ka fit" lang="ka" style="font-variation-settings: 'wght' 800, 'wdth' 115;">პური &amp; ღვინო</div><div class="en">Bread &amp; Wine</div></div>
+  </div>
+  <div class="tile blue">
+    <div class="label">Company name</div>
+    <div><div class="ka fit" lang="ka" style="font-weight: 700;">ᲛᲔᲒᲝᲑᲠᲔᲑᲘ &amp; ᲙᲝ.</div><div class="en">FRIENDS &amp; CO.</div></div>
+  </div>
+  <div class="tile ink">
+    <div class="label">Family business</div>
+    <div><div class="ka fit" lang="ka" style="font-variation-settings: 'wght' 800, 'wdth' 75;">ᲛᲐᲛᲐ &amp; ᲨᲕᲘᲚᲔᲑᲘ</div><div class="en">FATHER &amp; SONS</div></div>
+  </div>
+  <div class="tile sky">
+    <div class="label">Website footer</div>
+    <div><div class="ka fit" lang="ka" style="font-weight: 500;">წესები &amp; პირობები</div><div class="en">Terms &amp; Conditions</div></div>
+  </div>
+</section>
+
+<section class="board" id="glyphs">
+  <div class="tile cream" lang="ka">
+    <div class="label" lang="en">Regular form</div>
+    <div class="glyph" style="font-feature-settings: 'ss07';">&amp;</div>
+    <div class="sample">ნინო &amp; გიორგი</div>
+  </div>
+  <div class="tile blue" lang="ka">
+    <div class="label" lang="en">All-caps form</div>
+    <div class="glyph" style="font-feature-settings: 'ss08';">&amp;</div>
+    <div class="sample">ᲛᲔᲒᲝᲑᲠᲔᲑᲘ &amp; ᲙᲝ.</div>
+  </div>
+</section>
+
+<section class="board" id="unchanged">
+  <div class="tile sky" lang="ka">
+    <div class="label" lang="en">The word და stays two letters</div>
+    <div class="line fit">ნინო და გიორგი</div>
+  </div>
+  <div class="tile cream">
+    <div class="label">English keeps its own sign</div>
+    <div class="line fit">Friends &amp; Co.</div>
+  </div>
+</section>
+
+<!--
+  The mark is typed as U+0360 between the letters, and the font joins the marks
+  into one. Entities are used so the sequence is visible.
+-->
+<section class="board" id="karagma">
+  <div class="tile cream wide" lang="ka">
+    <div class="label" lang="en">Batumi Sans</div>
+    <div class="phrase fit">&#x10A3;&#x360;&#x10A3;&#x360;&#x10D0; &#x10B6;&#x360;&#x10D0;</div>
+    <div class="en">დედა ღვთისა · Mother of God</div>
+  </div>
+  <div class="tile blue wide" lang="ka">
+    <div class="label" lang="en">Batumi Sans Rounded</div>
+    <div class="phrase fit rounded">&#x10A3;&#x360;&#x10A3;&#x360;&#x10D0; &#x10B6;&#x360;&#x10D0;</div>
+    <div class="en">დედა ღვთისა · Mother of God</div>
+  </div>
+  <div class="tile green third center" lang="ka"><div class="label" lang="en">Two letters</div><div class="span">&#x10BC;&#x360;&#x10D0;</div><div></div></div>
+  <div class="tile pink third center" lang="ka"><div class="label" lang="en">Three letters</div><div class="span">&#x10A3;&#x360;&#x10A3;&#x360;&#x10D0;</div><div></div></div>
+  <div class="tile sky third center" lang="ka"><div class="label" lang="en">Four letters</div><div class="span">&#x10A3;&#x360;&#x10A3;&#x360;&#x10A0;&#x360;&#x10A8;</div><div></div></div>
+</section>
+
+
+<section class="board gf gf-hero " id="gf-hero">
+  <div class="tile cream name-tile">
+    <div class="label">An open type family for Georgian and Latin</div>
+    <div><div class="gname fit">Batumi Sans</div><div class="gname-ka fit" lang="ka">ბათუმი სანსი</div></div>
+    <div></div>
+  </div>
+  <div class="tile blue half" lang="ka">
+    <div class="label" lang="en">Georgian capitals next to Latin</div>
+    <div><div class="caps fit">ᲔᲕᲠᲝᲞᲐ EUROPE</div><div class="caps fit">ᲗᲑᲘᲚᲘᲡᲘ TBILISI</div></div>
+    <div></div>
+  </div>
+  <div class="tile pink"><div class="label">Extra Condensed</div><div class="w" lang="ka" style="font-variation-settings: 'wght' 700, 'wdth' 75;">თბილისი</div></div>
+  <div class="tile sky"><div class="label">Condensed</div><div class="w" lang="ka" style="font-variation-settings: 'wght' 700, 'wdth' 87.5;">თბილისი</div></div>
+  <div class="tile cream"><div class="label">Normal</div><div class="w" lang="ka" style="font-variation-settings: 'wght' 700, 'wdth' 100;">თბილისი</div></div>
+  <div class="tile green"><div class="label">Expanded</div><div class="w" lang="ka" style="font-variation-settings: 'wght' 700, 'wdth' 115;">თბილისი</div></div>
+  <div class="tile green half" lang="ka"><div class="label" lang="en">Georgian ampersand</div><div class="line fit">ნინო &amp; გიორგი</div></div>
+  <div class="tile ink half" lang="ka"><div class="label" lang="en">Italic</div><div class="line fit" style="font-style: italic;">ქართული Italic</div></div>
+</section>
+
+<section class="board gf gf-hero round" id="gf-hero-rounded">
+  <div class="tile cream name-tile">
+    <div class="label">Batumi Sans with round stroke ends</div>
+    <div><div class="gname fit">Batumi Sans</div><div class="gname-ka fit">Rounded <span lang="ka">მრგვალი</span></div></div>
+    <div></div>
+  </div>
+  <div class="tile blue half" lang="ka">
+    <div class="label" lang="en">Georgian capitals next to Latin</div>
+    <div><div class="caps fit">ᲔᲕᲠᲝᲞᲐ EUROPE</div><div class="caps fit">ᲗᲑᲘᲚᲘᲡᲘ TBILISI</div></div>
+    <div></div>
+  </div>
+  <div class="tile pink"><div class="label">Extra Condensed</div><div class="w" lang="ka" style="font-variation-settings: 'wght' 700, 'wdth' 75;">თბილისი</div></div>
+  <div class="tile sky"><div class="label">Condensed</div><div class="w" lang="ka" style="font-variation-settings: 'wght' 700, 'wdth' 87.5;">თბილისი</div></div>
+  <div class="tile cream"><div class="label">Normal</div><div class="w" lang="ka" style="font-variation-settings: 'wght' 700, 'wdth' 100;">თბილისი</div></div>
+  <div class="tile green"><div class="label">Expanded</div><div class="w" lang="ka" style="font-variation-settings: 'wght' 700, 'wdth' 115;">თბილისი</div></div>
+  <div class="tile green half" lang="ka"><div class="label" lang="en">Georgian ampersand</div><div class="line fit">ნინო &amp; გიორგი</div></div>
+  <div class="tile ink half" lang="ka"><div class="label" lang="en">Italic</div><div class="line fit" style="font-style: italic;">ქართული Italic</div></div>
+</section>
+
+<section class="board gf gf-weights " id="gf-weights">
+  <div class="head"><div class="label">Batumi Sans · nine weights · Georgian, Latin, Cyrillic, Greek</div></div>
+  <div class="row"><div class="wname">Thin 100</div><div class="s" style="font-weight: 100;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">ExtraLight 200</div><div class="s" style="font-weight: 200;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">Light 300</div><div class="s" style="font-weight: 300;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">Regular 400</div><div class="s" style="font-weight: 400;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">Medium 500</div><div class="s" style="font-weight: 500;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">SemiBold 600</div><div class="s" style="font-weight: 600;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">Bold 700</div><div class="s" style="font-weight: 700;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">ExtraBold 800</div><div class="s" style="font-weight: 800;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">Black 900</div><div class="s" style="font-weight: 900;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+</section>
+
+<section class="board gf gf-weights round" id="gf-weights-rounded">
+  <div class="head"><div class="label">Batumi Sans Rounded · nine weights · Georgian, Latin, Cyrillic, Greek</div></div>
+  <div class="row"><div class="wname">Thin 100</div><div class="s" style="font-weight: 100;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">ExtraLight 200</div><div class="s" style="font-weight: 200;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">Light 300</div><div class="s" style="font-weight: 300;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">Regular 400</div><div class="s" style="font-weight: 400;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">Medium 500</div><div class="s" style="font-weight: 500;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">SemiBold 600</div><div class="s" style="font-weight: 600;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">Bold 700</div><div class="s" style="font-weight: 700;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">ExtraBold 800</div><div class="s" style="font-weight: 800;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+  <div class="row"><div class="wname">Black 900</div><div class="s" style="font-weight: 900;"><span lang="ka">ბათუმი</span> Batumi Батуми Μπατούμι ₾ € $ ⌘ ⇧</div></div>
+</section>
+
+<section class="board" id="hero">
+  <div class="tile cream">
+    <div class="cap">An open type family for Georgian and Latin</div>
+    <div><div class="name fit">Batumi Sans</div><div class="name-ka fit" lang="ka">ბათუმი სანსი</div></div>
+    <div class="stats">4 widths · 9 weights · italics · rounded · variable</div>
+  </div>
+  <div class="stack">
+    <div class="tile green"><div class="cap">Expanded</div><div class="w" style="font-variation-settings: 'wght' 800, 'wdth' 115;">Wide</div></div>
+    <div class="tile blue"><div class="cap">Rounded</div><div class="w rounded" style="font-weight: 800;">Round</div></div>
+    <div class="tile pink"><div class="cap">Extra Condensed</div><div class="w" style="font-variation-settings: 'wght' 800, 'wdth' 75;">Narrow</div></div>
+  </div>
+</section>
+
+<section class="board" id="widths">
+  <div class="tile pink"><div class="meta"><b>Extra Condensed</b><span class="cap">wdth 75</span></div><div class="sample" style="font-variation-settings: 'wght' 700, 'wdth' 75;">Typography <span lang="ka">ტიპოგრაფია</span></div></div>
+  <div class="tile sky"><div class="meta"><b>Condensed</b><span class="cap">wdth 87.5</span></div><div class="sample" style="font-variation-settings: 'wght' 700, 'wdth' 87.5;">Typography <span lang="ka">ტიპოგრაფია</span></div></div>
+  <div class="tile cream"><div class="meta"><b>Normal</b><span class="cap">wdth 100</span></div><div class="sample" style="font-variation-settings: 'wght' 700, 'wdth' 100;">Typography <span lang="ka">ტიპოგრაფია</span></div></div>
+  <div class="tile green"><div class="meta"><b>Expanded</b><span class="cap">wdth 115</span></div><div class="sample" style="font-variation-settings: 'wght' 700, 'wdth' 115;">Typography <span lang="ka">ტიპოგრაფია</span></div></div>
+</section>
+
+<section class="board" id="rounded">
+  <div class="tile cream"><div class="cap">Batumi Sans</div><div class="fit" style="font-weight: 700;">Hello <span lang="ka">გამარჯობა</span> 2026</div></div>
+  <div class="tile blue"><div class="cap">Batumi Sans Rounded</div><div class="fit rounded" style="font-weight: 700;">Hello <span lang="ka">გამარჯობა</span> 2026</div></div>
+</section>
+
+<section class="board" id="mtavruli">
+  <div class="tile cream">
+    <div class="cap">FiraGO · every capital the same height</div>
+    <svg viewBox="0 0 654 400" class="ref" lang="ka">
+      <g stroke="#000" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="3 6"><line x1="0" x2="654" y1="170" y2="170"/><line x1="0" x2="654" y1="55.3" y2="55.3"/><line x1="0" x2="654" y1="360" y2="360"/><line x1="0" x2="654" y1="290.4" y2="290.4"/></g>
+      <text x="0" y="170" font-size="166" font-weight="700" fill="#000" fill-opacity="0.45" style="font-feature-settings: 'case';">პვკ ორ</text>
+      <text x="0" y="360" font-size="101" font-weight="700" fill="#000" fill-opacity="0.45" style="font-feature-settings: 'case';">ვაკის პარკი</text>
+    </svg>
+    <div class="note">The first three are easy to mix up, and Რ is no taller than Ო.</div>
+  </div>
+  <div class="tile green">
+    <div class="cap">Batumi Sans · capitals keep a small rise and drop</div>
+    <svg viewBox="0 0 654 400" lang="ka">
+      <g stroke="#000" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="3 6"><line x1="0" x2="654" y1="170" y2="170"/><line x1="0" x2="654" y1="55.3" y2="55.3"/><line x1="0" x2="654" y1="360" y2="360"/><line x1="0" x2="654" y1="290.4" y2="290.4"/></g>
+      <text x="0" y="170" font-size="166" font-weight="700" fill="#000">ᲞᲕᲙ ᲝᲠ</text>
+      <text x="0" y="360" font-size="101" font-weight="700" fill="#000">ᲕᲐᲙᲘᲡ ᲞᲐᲠᲙᲘ</text>
+    </svg>
+    <div class="note">One goes up and two go down. Რ stands above Ო again.</div>
+  </div>
+</section>
+
+<section class="board" id="amp-problem">
+  <div class="tile cream" lang="ka">
+    <div class="cap" lang="en">Before · the Latin sign in Georgian text</div>
+    <div class="fit ref" style="font-weight: 700; opacity: 0.55;">ნინო &amp; გიორგი</div>
+    <div class="note read" lang="en">Read aloud as <b lang="ka">„ნინო … გიორგი“</b> or <b lang="ka">„ნინო ენდ გიორგი“</b></div>
+  </div>
+  <div class="tile green" lang="ka">
+    <div class="cap" lang="en">After · the Georgian ampersand</div>
+    <div class="fit" style="font-weight: 700;">ნინო &amp; გიორგი</div>
+    <div class="note read" lang="en">Read aloud as <b lang="ka">„ნინო და გიორგი“</b></div>
+  </div>
+  <div class="tile ink quote">
+    <div class="q" lang="ka">„აღარ იყო წყვეტა, გაუგებრობის სიჩუმე სახელში.“</div>
+    <div class="note" style="margin-top: 14px;">“There was no longer a break, a silence of not understanding, inside the name.” From the 2021 proposal.</div>
+  </div>
+</section>
+
+<section class="board" id="map-centred">
+  <div class="tile cream">
+    <div class="cap">Desktop metrics · the name rides above the middle</div>
+    <svg viewBox="0 0 654 200" lang="ka">
+      <rect x="0" y="45" width="654" height="110" fill="#A8D3E6"/>
+      <line x1="0" x2="654" y1="100" y2="100" stroke="#000" stroke-width="2" stroke-dasharray="10 8"/>
+      <text x="327" y="124.9" text-anchor="middle" font-size="96" font-weight="600" fill="#000">ᲠᲣᲡᲗᲐᲕᲔᲚᲘ</text>
+    </svg>
+    <img class="real" src="assets/centring-935.png" alt="">
+    <div class="note">The dashed line is the middle of the road.</div>
+  </div>
+  <div class="tile green">
+    <div class="cap">Map build · the name sits on the middle</div>
+    <svg viewBox="0 0 654 200" lang="ka">
+      <rect x="0" y="45" width="654" height="110" fill="#A8D3E6"/>
+      <line x1="0" x2="654" y1="100" y2="100" stroke="#000" stroke-width="2" stroke-dasharray="10 8"/>
+      <text x="327" y="132.4" text-anchor="middle" font-size="96" font-weight="600" fill="#000">ᲠᲣᲡᲗᲐᲕᲔᲚᲘ</text>
+    </svg>
+    <img class="real" src="assets/centring-1040.png" alt="">
+    <div class="note">Lower strips: real labels in MapLibre at 32 px, enlarged.</div>
+  </div>
+</section>
+
+<section class="board" id="map-ba">
+  <div class="tile cream">
+    <div class="cap">Before · Noto Sans</div>
+    <div><img class="street" src="assets/map-street-before.png" alt=""><img class="water" src="assets/map-water-before.png" alt=""></div>
+  </div>
+  <div class="tile green">
+    <div class="cap">After · Batumi Sans, streets in capitals, water in italic</div>
+    <div><img class="street" src="assets/map-street-after.png" alt=""><img class="water" src="assets/map-water-after.png" alt=""></div>
+  </div>
+</section>
+
+<section class="board" id="in-use">
+  <div class="tile cream rounded">
+    <div class="cap">Banking app · Rounded</div>
+    <div><div class="dim" style="font-size: 24px; font-weight: 600;">Balance</div><div class="big fit" style="font-weight: 800;">$4,820.50</div></div>
+    <div class="rows"><div><span>Rent</span><span>−1,200.00</span></div><div><span>Salary</span><span>+3,400.00</span></div></div>
+  </div>
+  <div class="tile ink" style="font-variation-settings: 'wght' 600, 'wdth' 75;">
+    <div class="cap">Departure board · Extra Condensed</div>
+    <div class="rows board-rows" style="font-size: 32px;"><div><span>14:05</span><span>Lisbon</span><span>A12</span><span>Boarding</span></div><div><span>14:20</span><span lang="ka">თბილისი</span><span>B04</span><span>On time</span></div><div><span>14:45</span><span lang="el">Αθήνα</span><span>A07</span><span>Delayed</span></div><div><span>15:10</span><span lang="uk">Київ</span><span>C21</span><span>On time</span></div></div>
+  </div>
+  <div class="tile sky">
+    <div class="cap">Weather · Expanded</div>
+    <div><div class="big" style="font-size: 150px; font-variation-settings: 'wght' 800, 'wdth' 115;">18°</div><div class="big" style="font-size: 44px; font-variation-settings: 'wght' 700, 'wdth' 115; margin-top: 8px;">Tokyo</div></div>
+    <div class="note">Clear · wind 9 km/h</div>
+  </div>
+  <div class="tile pink rounded">
+    <div class="cap">Music player · Rounded Heavy</div>
+    <div class="big fit" style="font-weight: 900;">Night Drive</div>
+    <div class="rows"><div><span>Side A</span><span>3:42</span></div></div>
+  </div>
+  <div class="tile blue">
+    <div class="cap">Wayfinding · Bold</div>
+    <div class="rows" style="font-size: 58px; font-weight: 800;"><div><span>EXIT</span><span>→</span></div><div><span>GATES A–C</span><span>↑</span></div></div>
+    <div class="note" lang="ka">გასასვლელი · Έξοδος · Выход</div>
+  </div>
+  <div class="tile green">
+    <div class="cap">Receipt · tabular figures</div>
+    <div class="rows"><div><span>Flat white</span><span>3.50</span></div><div><span>Croissant</span><span>2.20</span></div><div><span>Mineral water</span><span>1.80</span></div><div style="font-weight: 800;"><span>Total</span><span>7.50 €</span></div></div>
+    <div class="note">Thank you · <span lang="ka">მადლობა</span></div>
+  </div>
+</section>
+
+<script>
+  // Scale each .fit line so it exactly fills the inner width of its tile.
+  function fitLines() {
+    document.querySelectorAll('.board:target .fit').forEach(function (el) {
+      var tile = el.closest('.tile'), cs = getComputedStyle(tile);
+      var avail = tile.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight);
+      var size = parseFloat(getComputedStyle(el).fontSize);
+      var w = el.getBoundingClientRect().width;
+      if (w > 0) el.style.fontSize = (size * avail / w) + 'px';
+    });
+  }
+  document.fonts.ready.then(function () { fitLines(); requestAnimationFrame(fitLines); });
+</script>
+</body>
+</html>

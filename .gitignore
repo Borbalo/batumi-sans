@@ -1,0 +1,41 @@
+# Python & OS
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.DS_Store
+
+# Heavy generated font builds & release archives (reproducible via scripts/)
+dist/
+releases/
+proofs/
+scratch/
+
+# Duplicate staged Google Fonts TTFs (canonical 2-axis VFs are tracked under fonts/variable/)
+google-fonts/*/*.ttf
+
+# Local reference fonts, visual QA dumps & local Newsroom article drafts
+/reference_fonts/
+/analysis/*.png
+/article/
+/qa/varfont_audit/
+/qa/build_audit/
+/qa/condenser_audit/
+/qa/*.png
+
+# Internal working files: research measurements, checker scoreboards, proof
+# renderers and planning notes. They hold local paths and are not needed to
+# build or use the fonts.
+/analysis/
+/qa/gf_baseline_audit.md
+/qa/gf_v1100_final_audit.md
+/qa/gf_v1100_final_audit.json
+/scripts/render_georgian_spacing_proof.py
+/scripts/render_iss_proofs.py
+/scripts/render_v1100_proof.py
+/docs/GOOGLE_FONTS_SUBMISSION.md
+/docs/GEORGIAN_FONT_ENGINEERING_RULES.md
+
+# A specimen page and renderer that need local reference fonts and system fonts.
+/specimen/
+/scripts/render_specimens.py
